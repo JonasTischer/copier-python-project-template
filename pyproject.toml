@@ -4,11 +4,15 @@ version = "0.1.0"
 description = "A copier template for creating Pyhton projects"
 authors = ["Jonas Tischer <jonas.tischer@gmx.de>"]
 readme = "README.md"
-packages = [{include = "copier_python_template"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+copier = "7.0.1"
 
+
+[tool.poetry.group.test.dependencies]
+gitpython = "^3.1.30"
+pytest = "^7.2.1"
 
 [build-system]
 requires = ["poetry-core"]
