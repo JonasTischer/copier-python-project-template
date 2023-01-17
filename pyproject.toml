@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "copier-python-template"
+version = "0.1.0"
+description = "A copier template for creating Pyhton projects"
+authors = ["Jonas Tischer <jonas.tischer@gmx.de>"]
+readme = "README.md"
+packages = [{include = "copier_python_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
