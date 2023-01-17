@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 copier = "7.0.1"
+pytest-cov = "^4.0.0"
 
 
 [tool.poetry.group.test.dependencies]
