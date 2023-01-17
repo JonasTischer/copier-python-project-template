@@ -4,12 +4,10 @@ from subprocess import PIPE, Popen
 
 logging.basicConfig(level=logging.INFO)
 
-
 def test_runs_tests_within_generated_project(project_path):
     logging.info("Running tests within generated project...")
     with Popen(
-        ["python3", "-m", "pytest"],
-        env=dict(environ),
+        ["pytest"],
         cwd=project_path,
         stdout=PIPE,
         bufsize=1,
