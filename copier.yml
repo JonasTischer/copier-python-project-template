@@ -1,11 +1,11 @@
 # CONFIGURATION -------------------------
-_subdirectory: {{project_name}}
+_subdirectory: project
 _templates_suffix: .jinja
 _envops:
   block_end_string: "%}"
   block_start_string: "{%"
-  variable_end_string: "}}}"
-  variable_start_string: "{{{"
+  variable_end_string: "}}"
+  variable_start_string: "{{"
 
 
 prroject_name:
